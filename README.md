@@ -1,1 +1,1 @@
-# Rock_Paper_Scissors_Game
+Game of Rock, Paper, Scissors. Built by Anday Duman.
