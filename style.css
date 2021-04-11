@@ -1,0 +1,123 @@
+/* universal selector changes that should be made at start of each project */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(43, 43, 48);
+}
+
+header {
+  background: white;
+  padding: 3vh;
+}
+
+header h1 {
+  color: #25272e;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.score-board {
+  margin-top: 5vh;
+  border: 3px solid white;
+  width: 30vh;
+  color: white;
+  font-size: 5vh;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 42%;
+  padding: 15px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+}
+
+.badge {
+  background: #e25840;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#user-label {
+  position: absolute; /* makes it so that element can be moved to absolutely anywhere on the page */
+  top: 30px;
+  left: -25px;
+}
+
+#computer-label {
+  position: absolute; /* makes it so that element can be moved to absolutely anywhere on the page */
+  top: 30px;
+  right: -25px;
+}
+
+.result p {
+  font-size: 10vh;
+  color: white;
+  margin-top: 2vh;
+  text-align: center;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* HAND SYMBOLS */
+
+.choices {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.choice {
+  display: inline-block;
+  border: 10px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 15px;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: rgb(20, 20, 20);
+  transition: background 0.5s ease;
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 5vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.user-win {
+  border: 10px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.user-loss {
+  border: 10px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.draw {
+  border: 10px solid #464647;
+  box-shadow: 0 0 10px #25292b;
+}
+
+#creator {
+  margin-top: 3vh;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
