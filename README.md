@@ -1,3 +1,4 @@
+# README.MD
 Game of Rock, Paper, Scissors. Built by Anday Duman.
-#### Tools:
+## Tools:
 Vanilla HTML5, CSS3 and JavaScript
